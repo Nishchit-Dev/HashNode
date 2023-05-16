@@ -1,0 +1,37 @@
+.App {
+    height: 100vh;
+}
+
+.wrapper {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#connect {
+    all: unset;
+    cursor: pointer;
+    opacity: 0.7;
+    border-radius: 30px;
+    
+    padding: 10px 25px;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background: #af36ff;
+}
+
+#connect:hover {
+    opacity: 1;
+}
+
+#wallet{
+    font-family: monospace;
+    font-size: x-large;
+    color: rgb(103, 103, 103);
+    font-weight: 700;
+}
